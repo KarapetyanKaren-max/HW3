@@ -14,7 +14,7 @@ public class Main {
         if (coldly <= 5) {
             System.out.println(" На улице " + coldly + " градусов" + " нужно надеть шапку");
         }
-        if (coldly > 5) {
+        else if (coldly > 5) {
             System.out.println(" На улице " + coldly + " градусов" + " можно идти без шапки ");
         }
 
@@ -22,7 +22,7 @@ public class Main {
         if (speed >= 60) {
             System.out.println("Если скорость " + speed + " км/ч, " + " то придется заплатить штраф");
         }
-        if (speed < 60) {
+        else if (speed < 60) {
             System.out.println("Если скорость " + speed + " км/ч, " + " можно ездить спокойно ");
         }
 
